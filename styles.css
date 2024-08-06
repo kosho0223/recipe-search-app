@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label, select, button {
+    margin: 5px 0;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#results {
+    text-align: center;
+    margin-top: 20px;
+}

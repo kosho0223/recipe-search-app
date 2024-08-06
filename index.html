@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レシピ検索システム</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>食材検索システム</h1>
+    </header>
+    <main>
+        <form id="recipe-form">
+            <div id="ingredient-select-container">
+                <label for="ingredient-select-1">食材から検索:</label>
+                <select id="ingredient-select-1" name="ingredient">
+                    <option value="">選択してください</option>
+                    <option value="えび">えび</option>
+                    <option value="かに">かに</option>
+                    <option value="くるみ">くるみ</option>
+                    <option value="小麦">小麦</option>
+                    <option value="そば">そば</option>
+                    <option value="卵">卵</option>
+                    <option value="乳製品">乳製品</option>
+                    <option value="落花生">落花生</option>
+                    <option value="アーモンド">アーモンド</option>
+                    <option value="あわび">あわび</option>
+                    <option value="いか">いか</option>
+                    <option value="いくら">いくら</option>
+                    <option value="オレンジ">オレンジ</option>
+                    <option value="カシューナッツ">カシューナッツ</option>
+                    <option value="キウイフルーツ">キウイフルーツ</option>
+                    <option value="牛肉">牛肉</option>
+                    <option value="ごま">ごま</option>
+                    <option value="さけ">さけ</option>
+                    <option value="さば">さば</option>
+                    <option value="大豆">大豆</option>
+                    <option value="鶏">鶏</option>
+                    <option value="バナナ">バナナ</option>
+                    <option value="豚">豚</option>
+                    <option value="マカダミアナッツ">マカダミアナッツ</option>
+                    <option value="もも">もも</option>
+                    <option value="やまいも">やまいも</option>
+                    <option value="りんご">りんご</option>
+                    <option value="ゼラチン">ゼラチン</option>
+                </select>
+            </div>
+            <button type="button" id="add-ingredient-button">食材を追加</button>
+            <label for="dish-select">料理名から検索:</label>
+            <select id="dish-select" name="dish">
+                <option value="">選択してください</option>
+                <option value="餃子">餃子</option>
+                <option value="肉まん">肉まん</option>
+                <option value="チャーハン">チャーハン</option>
+                <option value="麻婆豆腐">麻婆豆腐</option>
+                <option value="回鍋肉">回鍋肉</option>
+                <option value="青椒肉絲">青椒肉絲</option>
+            </select>
+            <button type="submit">検索</button>
+            <button type="button" id="reset-button">リセット</button>
+        </form>
+        <div id="results"></div>
+        <a href="tuika.html">料理を追加する</a>
+    </main>
+    <script type="module" src="./scripts.js"></script>
+</body>
+</html>
